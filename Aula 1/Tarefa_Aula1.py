@@ -30,8 +30,6 @@ letra_Mais3 = ' '.join(listaLetra_Mais3)
 
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
-from collections import Counter
-import random
 
 # Gera a word cloud 3Menos
 wordcloud_3Menos = WordCloud(
