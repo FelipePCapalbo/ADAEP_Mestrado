@@ -1,0 +1,27 @@
+Descreva os passos utilizandos para tratamento dos dados.   
+Entregue o Notebook para todo o desenvolvimento. 
+
+Responda as seguintes questões: 
+1) Quanto alunos se formam por ano em média no curso de eng. de produção?
+Para calcular quantos se formam por ano, consideramos o egresso
+
+2) Quantos alunos desistem do curso por ano?
+Para verificar quantos desistem, usamos o status “Cancelado”, verificando a média desse status por ano.
+
+3) Quais as chances do aluno desistir no primeiro ano?
+Para ver a chance do aluno desistir no primeiro ano, verificamos o ingresso e comparamos com o egresso. Para ver a probabilidade daqueles que desistem no primeiro ano, vemos quem tem o egresso menor do que 1 ano e tem o status cancelado, em comparação com todos aqueles do mesmo que tem um egresso maior que 1 ou um status diferente e egresso <1;
+
+4) Qual o percentual médio de desistência dos alunos durante os anos?
+Verificar qual o percentual de desistências no 1o ano de curso, 2o ano de curso, em diante; para cada um dos cálculos em cada um dos anos, comparamos com todos os outros status de egresso naquele ano
+
+5) Faça um gráfico de frequência para as desistência dos alunos. 
+Esse gráfico de frequência deve mostrar o status cancelado com a frequência dos alunos que desistem com 1 ano, 2 anos, até o máximo presente na base.
+
+6) Qual o tempo mais frequente para a conclusão do curso? 
+Devemos verificar o status formado e ver a moda para o valor da diferença entre ingresso e egresso (lembrando que ingresso e egresso tem um sufixo: 2009/2 significa 2o semestre de 2009, por exemplo, então na hora de fazer o calculo, caso o ingresso fosse 2008, seria 1.5 ano de duração
+
+7) Qual o tempo médio para conclusão do curso?
+Faça um box plot que mostre a média, bem como os demais dados
+
+8) Faça um histograma da desistência dos alunos.
+Faça alguns histogramas de desistência diferente: todos os com o status cancelado e a frequência para cada perfil; todos os com o status cancelado e a frequência por ano de ingresso (analisar qual dos anos de ingresso teve mais desistências)
